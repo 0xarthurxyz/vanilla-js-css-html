@@ -1,0 +1,8 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+    /* center vertically */
+    align-items: center;
+    /* center horizontally */
+    justify-content: center;
+}
