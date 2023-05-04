@@ -6,3 +6,27 @@ body{
     /* center horizontally */
     justify-content: center;
 }
+
+container{
+
+}
+
+.top{
+    /* centers items on one line */
+    display: flex;
+    align-items: center;
+    /* adds gap between items */
+    gap: 50px;
+}
+
+.arrow{
+    /* reduces size of the arrows */
+    height: 150px;
+    /* allows control over arrows */
+    cursor: pointer;
+}
+
+.left{
+    /* rotates arrow 180 degrees */
+    transform: rotate(180deg);
+}
